@@ -1,0 +1,38 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A Discord bot template coded for the community in v12.3.1.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAmMochi/Discord-Bot-Template.git"
+  },
+  "keywords": [
+    "Template",
+    "Discord",
+    "Bot",
+    "Discord.JS"
+  ],
+  "author": "Desire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iAmMochi/Discord-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/iAmMochi/Discord-Bot-Template#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "moment": "^2.27.0",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "pretty-ms": "^7.0.0",
+    "sqlite": "^4.0.14",
+    "util": "^0.12.3",
+    "vultrex.db": "^1.4.1"
+  }
+}

@@ -2,7 +2,7 @@
 const {Client, Collection} = require('discord.js');
 
 // Files needed to assign on the bot client.
-const {Datifier, Logger, ListenerHandler, CommandHandler} = require('../index');
+const {Datifier, Logger, ListenerHandler, CommandHandler, Fetcher, Pages} = require('../index');
 
 // Create our client class for the bot.
 class BotClient extends Client {
@@ -24,6 +24,8 @@ class BotClient extends Client {
         this.commands = new Collection();
         this.aliases = new Collection();
         this.cooldowns = new Map();
+
+        this.fetcher = Fetcher;
     }
 
     /**

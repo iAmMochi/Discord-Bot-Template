@@ -6,6 +6,8 @@ module.exports = {
 
     // Our main models.
     Client: require('./Main/Client'),
+    Fetcher: require('./Main/Fetcher'),
+    Pages: require('./Main/Pages'),
 
     // Our extendable models.
     Listener: require('./Extendables/Listener'),

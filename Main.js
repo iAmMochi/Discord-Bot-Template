@@ -9,7 +9,7 @@ const {VultrexDB} = require('vultrex.db');
 // Configuration for our .env file for more security.
 // To access a key from .env use process.env.<KEY>
 // NOTE: the key MUST ALWAYS be uppercase.
-config({path: `${__dirname}/.env`});
+config({path: `${__dirname}/./.env`});
 
 // Creating and setting a database...
 const database = new VultrexDB({

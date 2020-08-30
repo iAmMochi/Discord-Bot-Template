@@ -32,7 +32,7 @@ class BotClient extends Client {
      * @description Loads the listeners/events and commands after that it will log the bot into Discord.
      * @param {any} token - The token to use to login into Discord.
      */
-    connect(token) {
+    async connect(token) {
         this.listenerHandler.process();
         this.commandHandler.process();
 

@@ -21,7 +21,7 @@ class Fetcher {
      * @description Used to fetch users.
      * @param {String} value - Value to fetch from.
      */
-    user(value) {
+    async user(value) {
         value = value.toLowerCase();
 
         if (value instanceof User) return value;

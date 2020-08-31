@@ -47,7 +47,7 @@ class Embed extends MessageEmbed {
     }
 
     /**
-     * @description Creates a base embed.
+     * @description Creates a error embed.
      * @param {GuildMember} member - The member that initiated this embed.
      * @param {Guild} guild - The guild where this embed will be sent to.
      * @param {String} title - The title of the embed.

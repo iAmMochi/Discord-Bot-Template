@@ -1,5 +1,5 @@
 // Requiring the needed files.
-const {Listener} = require('../index');
+const Listener = require('../Extendables/Listener');
 
 // Requiring the needed packages.
 const path = require('path');
@@ -48,7 +48,7 @@ class ListenerHandler {
 
                 const listener = new File(name.toLowerCase());
 
-                //if (!(listener instanceof Listener)) return new this.client.logger().warn(`${name} doesn't belong to listeners!`);
+                if (!(listener instanceof Listener)) return new this.client.logger().warn(`${name} doesn't belong to listeners!`);
 
                 this.client.on(listener.name, listener.fire.bind(null, this.client));
             }

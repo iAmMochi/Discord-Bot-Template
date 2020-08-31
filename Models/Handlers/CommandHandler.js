@@ -1,5 +1,5 @@
 // Requiring the needed files.
-const {Command} = require('../index');
+const Command = require('../Extendables/Command');
 
 // Requiring the needed packages.
 const path = require('path');
